@@ -1,4 +1,5 @@
 <?php
+require_once "custom_utils.php";
 /**
  * The main template file
  *
@@ -13,7 +14,21 @@
  */
 
 get_header(); ?>
-	
-<?php
 
-get_footer();
+<!-- SECTION ABOUT-US -->
+<div class="about-us">
+    <div class="container section-padding">
+        <?php add_content_to_main_page(29) ?>
+    </div>
+</div>
+<!-- SECTION ABOUT-US -->
+
+<!-- SECTION CONTACT -->
+<div class="contact bg-lightgrey">
+    <div class="container section-padding">
+        <?php add_content_to_main_page(55) ?>
+    </div>
+</div>
+<!-- SECTION CONTACT -->
+
+<?php get_footer(); ?>
