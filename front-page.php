@@ -1,5 +1,5 @@
 <?php
-require_once "custom_utils.php";
+// require_once "custom_utils.php";
 /**
  * The main template file
  *
@@ -24,7 +24,7 @@ get_header(); ?>
 <!-- SECTION ABOUT-US -->
 <div class="about-us">
     <div class="container section-padding">
-        <?php add_content_to_main_page(29) ?>
+        <?php add_content_to_main_page(29); ?>
     </div>
 </div>
 <!-- SECTION ABOUT-US -->
@@ -32,7 +32,7 @@ get_header(); ?>
 <!-- SECTION CONTACT -->
 <div class="contact bg-lightgrey">
     <div class="container section-padding">
-        <?php add_content_to_main_page(55) ?>
+        <?php add_content_to_main_page(55); ?>
     </div>
 </div>
 <!-- SECTION CONTACT -->
@@ -40,7 +40,7 @@ get_header(); ?>
 <!-- SECTION FIND-US -->
 <div class="find-us bg-lightgrey">
     <div class="container section-padding">
-        <?php add_content_to_main_page(77) ?>
+        <?php add_content_to_main_page(77); ?>
     </div>
 </div>
 <!-- SECTION FIND-US -->
@@ -48,7 +48,7 @@ get_header(); ?>
 <!-- SECTION SEND-INFO -->
 <div class="find-us bg-green">
     <div class="container section-padding">
-        <?php add_content_to_main_page(89) ?>
+        <?php add_content_to_main_page(89); ?>
     </div>
 </div>
 <!-- SECTION SEND-INFO -->
