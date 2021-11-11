@@ -15,6 +15,12 @@ require_once "custom_utils.php";
 
 get_header(); ?>
 
+<!-- SECTION TOP-SLIDER -->
+<div class="top-slider">
+    <?php add_content_to_main_page(95) ?>
+</div>
+<!-- SECTION TOP-SLIDER -->
+
 <!-- SECTION ABOUT-US -->
 <div class="about-us">
     <div class="container section-padding">
@@ -30,5 +36,21 @@ get_header(); ?>
     </div>
 </div>
 <!-- SECTION CONTACT -->
+
+<!-- SECTION FIND-US -->
+<div class="find-us bg-lightgrey">
+    <div class="container section-padding">
+        <?php add_content_to_main_page(77) ?>
+    </div>
+</div>
+<!-- SECTION FIND-US -->
+
+<!-- SECTION SEND-INFO -->
+<div class="find-us bg-green">
+    <div class="container section-padding">
+        <?php add_content_to_main_page(89) ?>
+    </div>
+</div>
+<!-- SECTION SEND-INFO -->
 
 <?php get_footer(); ?>
