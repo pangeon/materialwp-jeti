@@ -1,10 +1,47 @@
+/** GENERAL **/
+/*? class adapted 'content-area' - style.css line 12341 usage in page.php */
+.full-content-area {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    .full-content-area {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%;
+      max-width: 100%; } }
+  @media (min-width: 768px) {
+    .full-content-area {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%;
+      max-width: 100%; } }
+ 
+/** STATUS PAGE **/
 .law-pointer {
   text-align: center;
   font-size: 1.25em;
   color: #424242;
 }
-/* 
+/*
 .status-list {}
 .second-level-status-list {}
 .third-level-status-list {} 
 */
+/** STATUS PAGE **/
+
+/** TEAM PAGE **/
+/*? @override - plugin style */
+.fw-row {
+  width: 80%;
+  margin: 0 auto;
+}
+.fw-team-image, .fw-team-inner {
+  max-width: 70%;
+}
+.fw-team-name > h3 {
+	font-size: 1.5em !important;
+}
+/** TEAM PAGE **/
