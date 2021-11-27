@@ -53,6 +53,6 @@ add_filter( 'wp_tag_cloud', 'materialwp_tag_cloud_btn' );
  * Customize the Read More Button
 **/
 function materialwp_modify_read_more_link() {
-    return '<a class="more-link btn btn-raised btn-secondary" href="' . get_permalink() . '">Read More</a>';
+    return '<a class="more-link btn btn-raised btn-secondary" href="' . get_permalink() . '">CZYTAJ WIĘCEJ</a>';
 }
 add_filter( 'the_content_more_link', 'materialwp_modify_read_more_link' );

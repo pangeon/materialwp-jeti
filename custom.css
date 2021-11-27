@@ -5,20 +5,43 @@
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
-  padding-left: 15px; }
-  @media (min-width: 576px) {
-    .full-content-area {
-      -webkit-box-flex: 0;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
-      max-width: 100%; } }
-  @media (min-width: 768px) {
-    .full-content-area {
-      -webkit-box-flex: 0;
-          -ms-flex: 0 0 100%;
-              flex: 0 0 100%;
-      max-width: 100%; } }
- 
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .full-content-area {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .full-content-area {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/** GENERAL **/
+
+/** HEADER **/
+.caption-header-image {
+  height: 400px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caption-header-title {
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+/** HEADER **/
+
 /** STATUS PAGE **/
 .law-pointer {
   text-align: center;
@@ -38,10 +61,11 @@
   width: 80%;
   margin: 0 auto;
 }
-.fw-team-image, .fw-team-inner {
+.fw-team-image,
+.fw-team-inner {
   max-width: 70%;
 }
 .fw-team-name > h3 {
-	font-size: 1.5em !important;
+  font-size: 1.5em !important;
 }
 /** TEAM PAGE **/

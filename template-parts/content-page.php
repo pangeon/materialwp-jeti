@@ -9,20 +9,9 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('card'); ?>>
-	<?php if ( has_post_thumbnail() ) : ?>
-		<div class="post-thumbnail">
-		    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-		        <?php the_post_thumbnail('full', array('class' => 'card-img-top')); ?>
-		    </a>
-		</div><!--  .post-thumbnail -->
-	<?php endif; ?>
-
+<article id="post-<?php the_ID(); ?>" <?php post_class(''); ?>>
+	
 	<div class="card-body">
-		<header class="entry-header">
-			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		</header><!-- .entry-header -->
-
 		<div class="entry-content">
 			<?php
 				the_content();

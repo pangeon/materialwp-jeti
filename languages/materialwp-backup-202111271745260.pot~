@@ -17,7 +17,8 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/"
 
 #: 404.php:15
-msgid "Ups! Nie można znaleźć tej strony."
+msgctxt "Ups! Nie można znaleźć tej strony."
+msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
 #: 404.php:19
