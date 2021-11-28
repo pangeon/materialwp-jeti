@@ -1,5 +1,4 @@
-/** GENERAL **/
-/*? class adapted 'content-area' - style.css line 12341 usage in page.php */
+/* class adapted 'content-area' - style.css line 12341 usage in page.php */
 .full-content-area {
   position: relative;
   width: 100%;
@@ -23,9 +22,17 @@
     max-width: 100%;
   }
 }
-/** GENERAL **/
-
-/** HEADER **/
+.center-column-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.center-align-item-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .caption-header-image {
   height: 400px;
   background-position: center !important;
@@ -38,34 +45,33 @@
 .caption-header-title {
   text-align: center;
   color: white;
-  text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+  text-shadow: 4px 4px 6px #424242;
 }
-/** HEADER **/
-
-/** STATUS PAGE **/
 .law-pointer {
   text-align: center;
   font-size: 1.25em;
   color: #424242;
 }
 /*
-.status-list {}
-.second-level-status-list {}
-.third-level-status-list {} 
-*/
-/** STATUS PAGE **/
-
-/** TEAM PAGE **/
+  .status-list {}
+  .second-level-status-list {}
+  .third-level-status-list {} 
+  */
 /*? @override - plugin style */
 .fw-row {
-  width: 80%;
-  margin: 0 auto;
+  width: 80% !important;
+  margin: 0 auto !important;
 }
 .fw-team-image,
 .fw-team-inner {
   max-width: 70%;
 }
+.fw-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .fw-team-name > h3 {
   font-size: 1.5em !important;
 }
-/** TEAM PAGE **/
