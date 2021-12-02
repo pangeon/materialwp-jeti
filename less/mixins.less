@@ -1,11 +1,58 @@
-.center-column-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+/** ----------------- ELEMENT POSITION ----------------- **/
+.display(@arg) {
+  display: @arg;
+}
+.position(@arg) {
+  position: @arg;
+}
+.absolute-x0-y0 {
+  .position(absolute);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+}
+.v-align-center() {
+  .position(relative);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.h-align-center() {
+  .position(relative);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* FLEX */
+.flex-content-align(@arg) {
+  align-items: @arg;
+  justify-content: @arg;
 }
 .center-align-item-flex {
-  display: flex;
-	align-items: center;
-	justify-content: center;
+  .display(flex);
+	.flex-content-align(center);
 }
+.center-column-flex {
+  .display(flex);
+  .flex-content-align(center);
+  flex-direction: column;
+}
+/* FLEX */
+
+/** ----------------- ELEMENT POSITION ----------------- **/
+
+
+/** ------------------- LIST STYLE --------------------- **/
+.clear-list() {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 0;
+}
+/** ------------------- LIST STYLE --------------------- **/
+
+
+/** ------------------ ANIM EFFECTS -------------------- **/
+.hover-trasition(@time) {
+  transition: all @time ease-in-out;
+}
+/** ------------------ ANIM EFFECTS -------------------- **/

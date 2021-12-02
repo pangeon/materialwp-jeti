@@ -22,17 +22,34 @@
     max-width: 100%;
   }
 }
+/* COLORS */
+/* SIZE BOXES */
+/** ----------------- ELEMENT POSITION ----------------- **/
+.absolute-x0-y0 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* FLEX */
+.center-align-item-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .center-column-flex {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.center-align-item-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+/* FLEX */
+/** ----------------- ELEMENT POSITION ----------------- **/
+/** ------------------- LIST STYLE --------------------- **/
+/** ------------------- LIST STYLE --------------------- **/
+/** ------------------ ANIM EFFECTS -------------------- **/
+/** ------------------ ANIM EFFECTS -------------------- **/
 .caption-header-image {
   height: 400px;
   background-position: center !important;
