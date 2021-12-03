@@ -38,7 +38,7 @@ get_header(); ?>
 <!-- SECTION CONTACT -->
 
 <!-- SECTION FIND-US -->
-<div class="find-us bg-lightgrey">
+<div class="find-us">
     <div class="container section-padding">
         <?php add_content_to_main_page(77); ?>
     </div>
@@ -46,7 +46,7 @@ get_header(); ?>
 <!-- SECTION FIND-US -->
 
 <!-- SECTION SEND-INFO -->
-<div class="find-us bg-green">
+<div class="find-us bg-accent">
     <div class="container section-padding">
         <?php add_content_to_main_page(89); ?>
     </div>

@@ -23,7 +23,7 @@
   transform: translateX(-50%);
 }
 
-/* FLEX */
+//! -- FLEX --
 .flex-content-align(@arg) {
   align-items: @arg;
   justify-content: @arg;
@@ -37,7 +37,7 @@
   .flex-content-align(center);
   flex-direction: column;
 }
-/* FLEX */
+//! -- FLEX --
 
 /** ----------------- ELEMENT POSITION ----------------- **/
 
@@ -55,4 +55,49 @@
 .hover-trasition(@time) {
   transition: all @time ease-in-out;
 }
+.hover-shadow() {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.static-btn-shadow() {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 /** ------------------ ANIM EFFECTS -------------------- **/
+
+
+/** ------------------ BOX PROPERTIES ------------------ **/
+.color-bg-and-text(@bg;@text) {
+  background-color: @bg;
+  color: @text;
+}
+.box-space(@padding, @margin) {
+  padding: @padding;
+  margin: @margin;
+}
+.box-size(@width, @height) {
+  width: @width;
+  height: @height;
+}
+.dark-cover() {
+  content: "";
+  z-index: 0;
+  background-color: none repeat rgba(30,30,30, 0.5);
+  .position(absolute);
+  top: 0;
+  left: 0;
+  .box-size(100%, 100%);
+}
+.opacity(@arg: 1) {
+  opacity: @arg
+}
+/** ------------------ BOX PROPERTIES ------------------ **/
+
+
+/** ------------------ TEXT PROPERTIES ----------------- **/
+.text-fsize-and-lineheight(@fsize;@height) {
+  font-size: @fsize;
+  line-height: @height;
+}
+.upper {
+  text-transform: uppercase;
+}
+/** ------------------ TEXT PROPERTIES ----------------- **/

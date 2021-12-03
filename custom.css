@@ -1,3 +1,156 @@
+/* COLORS */
+/* SIZE BOXES */
+/* MEDIA */
+/** ----------------- ELEMENT POSITION ----------------- **/
+.absolute-x0-y0 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.center-align-item-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-column-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/** ----------------- ELEMENT POSITION ----------------- **/
+/** ------------------- LIST STYLE --------------------- **/
+/** ------------------- LIST STYLE --------------------- **/
+/** ------------------ ANIM EFFECTS -------------------- **/
+/** ------------------ ANIM EFFECTS -------------------- **/
+/** ------------------ BOX PROPERTIES ------------------ **/
+/** ------------------ BOX PROPERTIES ------------------ **/
+/** ------------------ TEXT PROPERTIES ----------------- **/
+.upper {
+  text-transform: uppercase;
+}
+/** ------------------ TEXT PROPERTIES ----------------- **/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: white;
+}
+p {
+  font-size: 13px;
+  line-height: 23px;
+  color: #424242;
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #424242;
+  font-weight: 300;
+  line-height: 1.4;
+}
+h2 {
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+h3,
+h4 {
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  text-decoration: none !important;
+}
+a:active {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+.bg-accent {
+  background-color: #078ab3;
+}
+.bg-lightgrey {
+  background-color: whitesmoke;
+}
+.fw-btn {
+  outline: none;
+  border: none;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #078ab3;
+  color: white;
+  border-radius: 3px;
+  padding: 11px 22px;
+  margin: 5px 8px 5px 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+.fw-btn:hover {
+  background-color: #b36619;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.fw-btn:focus {
+  outline: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.fw-btn:active {
+  outline: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.fw-btn-black {
+  background-color: #024E66;
+  color: white;
+}
+.fw-btn-black:hover {
+  background-color: #b36619;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.fw-btn-black:focus {
+  outline: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.fw-btn-black:active {
+  outline: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.fw-btn-blue {
+  background-color: #3dd1ff;
+  color: white;
+}
+.fw-btn-blue:hover {
+  background-color: #b36619;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.fw-btn-blue:focus {
+  outline: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.fw-btn-blue:active {
+  outline: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
 /* class adapted 'content-area' - style.css line 12341 usage in page.php */
 .full-content-area {
   position: relative;
@@ -22,34 +175,6 @@
     max-width: 100%;
   }
 }
-/* COLORS */
-/* SIZE BOXES */
-/** ----------------- ELEMENT POSITION ----------------- **/
-.absolute-x0-y0 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-/* FLEX */
-.center-align-item-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.center-column-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-/* FLEX */
-/** ----------------- ELEMENT POSITION ----------------- **/
-/** ------------------- LIST STYLE --------------------- **/
-/** ------------------- LIST STYLE --------------------- **/
-/** ------------------ ANIM EFFECTS -------------------- **/
-/** ------------------ ANIM EFFECTS -------------------- **/
 .caption-header-image {
   height: 400px;
   background-position: center !important;

@@ -13,8 +13,7 @@
 
 <div>
 	<!-- TODO: style property is temporary, you must define it other place -->
-	<footer id="colophon" class="site-footer" role="contentinfo" 
-	style="background-color: #424242; color: white">
+	<footer id="colophon" class="site-footer" role="contentinfo">
 
 		<!-- WIGDGET BAR -->
 		<div class="footer-widgets">
