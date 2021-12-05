@@ -15,3 +15,33 @@
 .fw-team-name > h3 {
   font-size: 1.5em !important;
 }
+.fw-btn {
+	.no-borders();
+	.display(inline-block);
+	.text-fsize-and-lineheight(15px;20px);
+	.color-bg-and-text(@deepblue; white);
+	.position(relative);
+  .static-btn-shadow();
+  .box-space(11px 22px; 5px 8px 5px 0);
+	.v-align-center();
+  .pseudo-classes-effects(@nutbrown);
+  .radius(3px);
+	.text-center();
+}
+.fw-btn-black {
+	.color-bg-and-text(@seablue; white);
+	.pseudo-classes-effects(@nutbrown);
+}
+.fw-btn-blue {
+	.color-bg-and-text(@skyblue; white);
+	.pseudo-classes-effects(@nutbrown);
+}
+h2.fw-special-title {
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  @media small {
+    font-size: 34px;
+  }
+}

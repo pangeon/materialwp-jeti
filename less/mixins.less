@@ -57,14 +57,35 @@
 }
 .hover-shadow() {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
 }
-.static-btn-shadow() {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.hover-link(@static, @active) {
+  color: @static;
+      &:hover, &focus, &:active {
+          color: @active;
+      }
+}
+.pseudo-classes-effects(@bg-color) {
+  &:hover {
+		.color-bg-and-text(@bg-color; white);
+		.hover-shadow();
+	}
+	&:focus, &:active {
+		outline: none;
+		.hover-shadow();
+	}
 }
 /** ------------------ ANIM EFFECTS -------------------- **/
 
 
 /** ------------------ BOX PROPERTIES ------------------ **/
+.radius(@arg) {
+  border-radius: @arg;
+}
+.no-borders() {
+  outline: none;
+	border: none;
+}
 .color-bg-and-text(@bg;@text) {
   background-color: @bg;
   color: @text;
@@ -89,6 +110,9 @@
 .opacity(@arg: 1) {
   opacity: @arg
 }
+.static-btn-shadow() {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 /** ------------------ BOX PROPERTIES ------------------ **/
 
 
@@ -99,5 +123,8 @@
 }
 .upper {
   text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
 }
 /** ------------------ TEXT PROPERTIES ----------------- **/

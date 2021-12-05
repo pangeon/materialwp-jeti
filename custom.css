@@ -31,6 +31,9 @@
 .upper {
   text-transform: uppercase;
 }
+.text-center {
+  text-align: center;
+}
 /** ------------------ TEXT PROPERTIES ----------------- **/
 body {
   font-family: 'Roboto', sans-serif;
@@ -86,71 +89,6 @@ a:focus {
 .bg-lightgrey {
   background-color: whitesmoke;
 }
-.fw-btn {
-  outline: none;
-  border: none;
-  display: inline-block;
-  font-size: 15px;
-  line-height: 20px;
-  background-color: #078ab3;
-  color: white;
-  border-radius: 3px;
-  padding: 11px 22px;
-  margin: 5px 8px 5px 0;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.3s ease;
-}
-.fw-btn:hover {
-  background-color: #b36619;
-  color: white;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-}
-.fw-btn:focus {
-  outline: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-}
-.fw-btn:active {
-  outline: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-}
-.fw-btn-black {
-  background-color: #024E66;
-  color: white;
-}
-.fw-btn-black:hover {
-  background-color: #b36619;
-  color: white;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-}
-.fw-btn-black:focus {
-  outline: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-}
-.fw-btn-black:active {
-  outline: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-}
-.fw-btn-blue {
-  background-color: #3dd1ff;
-  color: white;
-}
-.fw-btn-blue:hover {
-  background-color: #b36619;
-  color: white;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-}
-.fw-btn-blue:focus {
-  outline: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-}
-.fw-btn-blue:active {
-  outline: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-}
 /* class adapted 'content-area' - style.css line 12341 usage in page.php */
 .full-content-area {
   position: relative;
@@ -199,6 +137,57 @@ a:focus {
   .second-level-status-list {}
   .third-level-status-list {} 
   */
+.widget-sidebar {
+  padding: 0 40px;
+  margin-bottom: 45px;
+}
+@media only screen and (min-width: 1200px) {
+  .widget-sidebar {
+    padding: 0;
+  }
+}
+.widget-sidebar * {
+  margin: 0;
+  padding: 0;
+}
+.widget-sidebar h2 {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ff9e3c;
+}
+.widget-sidebar li {
+  padding: 8px 0 8px 20px;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.widget-sidebar li a {
+  color: #3dd1ff;
+}
+.widget-sidebar li a:hover,
+.widget-sidebar li afocus,
+.widget-sidebar li a:active {
+  color: #b36619;
+}
+.widget-sidebar li a:before {
+  font-family: FontAwesome;
+  position: absolute;
+  content: "\f054";
+  top: 11px;
+  font-size: 11px;
+  left: -3px;
+  color: #ff9e3c;
+}
+.widget-sidebar li time {
+  position: block;
+  color: lightgrey;
+}
+#block-4 {
+  display: none;
+}
 /*? @override - plugin style */
 .fw-row {
   width: 80% !important;
@@ -216,4 +205,76 @@ a:focus {
 }
 .fw-team-name > h3 {
   font-size: 1.5em !important;
+}
+.fw-btn {
+  outline: none;
+  border: none;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #078ab3;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 11px 22px;
+  margin: 5px 8px 5px 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 3px;
+  text-align: center;
+}
+.fw-btn:hover {
+  background-color: #b36619;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+.fw-btn:focus,
+.fw-btn:active {
+  outline: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+.fw-btn-black {
+  background-color: #024E66;
+  color: white;
+}
+.fw-btn-black:hover {
+  background-color: #b36619;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+.fw-btn-black:focus,
+.fw-btn-black:active {
+  outline: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+.fw-btn-blue {
+  background-color: #3dd1ff;
+  color: white;
+}
+.fw-btn-blue:hover {
+  background-color: #b36619;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+.fw-btn-blue:focus,
+.fw-btn-blue:active {
+  outline: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+h2.fw-special-title {
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+@media small {
+  h2.fw-special-title {
+    font-size: 34px;
+  }
 }
