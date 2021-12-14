@@ -1,4 +1,4 @@
-@import 'mixins.less';
+@import "mixins.less";
 
 /*? @override - plugin style */
 .fw-row {
@@ -16,25 +16,25 @@
   font-size: 1.5em !important;
 }
 .fw-btn {
-	.no-borders();
-	.display(inline-block);
-	.text-fsize-and-lineheight(15px;20px);
-	.color-bg-and-text(@deepblue; white);
-	.position(relative);
+  .no-borders();
+  .display(inline-block);
+  .text-fsize-and-lineheight(15px;20px);
+  .color-bg-and-text(@deepblue; white);
+  .position(relative);
   .static-btn-shadow();
   .box-space(11px 22px; 5px 8px 5px 0);
-	.v-align-center();
+  .v-align-center();
   .pseudo-classes-effects(@nutbrown);
   .radius(3px);
-	.text-center();
+  .text-center();
 }
 .fw-btn-black {
-	.color-bg-and-text(@seablue; white);
-	.pseudo-classes-effects(@nutbrown);
+  .color-bg-and-text(@seablue; white);
+  .pseudo-classes-effects(@nutbrown);
 }
 .fw-btn-blue {
-	.color-bg-and-text(@skyblue; white);
-	.pseudo-classes-effects(@nutbrown);
+  .color-bg-and-text(@skyblue; white);
+  .pseudo-classes-effects(@nutbrown);
 }
 h2.fw-special-title {
   font-size: 26px;
@@ -43,5 +43,41 @@ h2.fw-special-title {
   text-align: center;
   @media small {
     font-size: 34px;
+  }
+}
+// <div class="fw-iconbox clearfix fw-iconbox-1">
+// 	<div class="fw-iconbox-image">
+// 		<i class="fa fa-users" aria-hidden="true"></i>
+// 	</div>
+// 	<div class="fw-iconbox-aside">
+// 		<div class="fw-iconbox-title">
+// 			<h3>Integrację</h3>
+// 		</div>
+// 		<div class="fw-iconbox-text">
+// 			<p>Jesteśmy silną stane rozrastającą się grupą.</p>
+// 		</div>
+// 	</div>
+// </div>
+.fw.iconbox {
+  margin-bottom: 18px;
+}
+.about-us, .card-body {
+  .fw-iconbox-image {
+    .box-size(80px, 80px);
+    border-radius: 50%;
+    .static-btn-shadow();
+    .text-center();
+    .color-bg-and-text(@orangenut, white);
+    font-weight: lighter;
+    cursor: pointer;
+    margin: 0 auto;
+    .pseudo-classes-effects(@nutbrown);
+    i {
+      .display(inline-block);
+      .text-fsize-and-lineheight(34px, 80px);
+    }
+  }
+  .fw-iconbox-aside {
+    .text-center();
   }
 }
