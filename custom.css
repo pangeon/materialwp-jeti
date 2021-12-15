@@ -188,6 +188,77 @@ a:focus {
 #block-4 {
   display: none;
 }
+.site-footer {
+  padding: 70px 0 0;
+  background-color: #663300;
+  color: #ff9e3c;
+}
+.site-footer .footer-widgets {
+  padding: 0 15px;
+}
+.site-footer .footer-widgets h3 {
+  text-transform: uppercase;
+  color: #ff9e3c;
+  margin-top: 0;
+  line-height: 1.1;
+}
+.site-footer .footer-widgets aside {
+  margin-bottom: 30px;
+}
+.site-footer .footer-widgets aside ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.site-footer .footer-widgets aside ul li {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.site-footer .footer-widgets aside ul li a {
+  color: #ff9e3c;
+}
+.site-footer .footer-widgets aside ul li a:hover,
+.site-footer .footer-widgets aside ul li afocus,
+.site-footer .footer-widgets aside ul li a:active {
+  color: white;
+}
+.site-footer .footer-widgets aside p {
+  color: #ff9e3c;
+  padding-right: 20px;
+}
+.footer-contact-item {
+  clear: both;
+  margin-bottom: 14px;
+}
+.footer-contact-item h5 {
+  font-size: 14px;
+  display: inline-block;
+  color: #ff9e3c;
+  padding: 0 0 16px;
+  margin: 0 0 0 20px;
+}
+.footer-contact-item-icon {
+  float: left;
+  font-size: 25px;
+  line-height: 25px;
+}
+.footer-widget:last-child {
+  padding-left: 50px;
+}
+.footer-copyright {
+  padding: 20px 0;
+  font-size: 14px;
+  text-align: center;
+  background-color: #024E66;
+  color: #3dd1ff;
+}
+.footer-copyright a {
+  color: #3dd1ff;
+}
+.footer-copyright a:hover,
+.footer-copyright afocus,
+.footer-copyright a:active {
+  color: white;
+}
 /*? @override - plugin style */
 .fw-row {
   width: 80% !important;
