@@ -1,0 +1,116 @@
+@import 'variables.less';
+@import 'mixins.less';
+
+/* front-page styles */
+.section-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    @media @small {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.contact {
+    * {
+        color: @seablue;
+    }
+    h2.fw-special-title {
+        .upper();
+        font-weight: 700;
+        margin-bottom: 32px;
+        color: @nutbrown;
+    }
+    .fw-col-xs-12:nth-child(2) {
+        padding-left: 40%;
+        padding-top: 10%;
+        @media @small {
+            padding-top: 0;
+        }
+        @media @max-small {
+            padding-left: 0;
+        }
+    }
+    .fw-iconbox {
+        text-align: center;
+        margin-bottom: 50px;
+        @media @small {
+            text-align: inherit;
+        }
+    }
+    .fw-iconbox-image {
+        margin-bottom: 24px;
+        .text-fsize-and-lineheight(40px;40px);
+        @media @small {
+            float: left;
+            .display(inline-block);
+            margin-bottom: 0;
+        }
+    }
+    .fw-iconbox-aside {
+        h3 {
+            .text-fsize-and-lineheight(20px;24px);
+            margin-top: 0;
+            margin-bottom: 0;
+            clear: none;
+        }
+        p {
+            margin-bottom: 12px;
+        }
+        @media @small {
+            margin-left: 62px;
+        }
+    }
+}
+.about-us {
+    h2.fw-special-title {
+        color: @text-grey;
+        .upper();
+        font-weight: 700;
+        margin-bottom: 32px;
+    }
+} 
+
+.find-us {
+    h2.fw-special-title {
+        color: @deepblue;
+        .upper();
+        font-weight: 700;
+        margin-bottom: 32px;
+    }
+}
+.find-us {
+    .section-padding {
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+    .fw-col-xs-12 {
+        margin-top: 50px;
+        text-align: center;
+        p {
+            text-align: justify;
+        }
+    }
+    a.fw-btn {
+        @media @max-small {
+            width: 100%;
+        }
+    }
+}
+.send-info {
+    text-align: center;
+    h2.fw-special-title {
+        .upper();
+        font-weight: 700;
+        color: @smoked;
+    }
+    div.fw-special-subtitle {
+        color: @smoked;
+        text-align: center;
+    }
+    a.fw-btn {
+        font-weight: 300;
+        transform: none;
+    }
+}
+/* front-page styles */

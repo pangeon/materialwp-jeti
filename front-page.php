@@ -46,7 +46,7 @@ get_header(); ?>
 <!-- SECTION FIND-US -->
 
 <!-- SECTION SEND-INFO -->
-<div class="find-us bg-accent">
+<div class="send-info bg-accent">
     <div class="container section-padding">
         <?php add_content_to_main_page(89); ?>
     </div>

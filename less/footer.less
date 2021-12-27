@@ -47,7 +47,9 @@
     .text-fsize-and-lineheight(25px;25px);
 }
 .footer-widget:last-child {
-    padding-left: 50px;
+    @media @large {
+        padding-left: 50px;
+    }
 }
 .footer-copyright {
     padding: 20px 0;
