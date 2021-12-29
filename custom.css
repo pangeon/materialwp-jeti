@@ -243,9 +243,30 @@ a:focus {
   text-shadow: 4px 4px 6px #424242;
 }
 .law-pointer {
-  text-align: center;
-  font-size: 1.25em;
+  text-align: center !important;
+  font-size: 1.25em !important;
   color: #424242;
+  margin-bottom: 20px !important;
+  font-weight: 700;
+}
+body.page div.card-body h2.fw-special-title {
+  font-weight: 500;
+}
+body.page div.card-body .fw-special-subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body.page div.card-body h3.fw-special-title {
+  text-align: center;
+  background-color: #078ab3;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body.page div.card-body div.entry-content p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  text-align: justify;
 }
 /*
   .status-list {}
@@ -299,6 +320,32 @@ a:focus {
 .widget-sidebar li time {
   position: block;
   color: lightgrey;
+}
+body.single-post div.card-body div.entry-content p {
+  font-size: 16px;
+  text-indent: 50px;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+body.single-post div.card-body div.entry-content ul,
+body.single-post div.card-body div.entry-content ol {
+  margin-left: 30px;
+}
+body.single-post div.card-body div.entry-content h3.center {
+  text-align: center;
+}
+body.single-post div.card-body div.entry-content h3.center-color {
+  text-align: center;
+  background-color: #078ab3;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body.single-post div.card-body p.no-indent {
+  text-indent: 0 !important;
+}
+body.single-post div.card-body p.same-line {
+  margin-bottom: 0 !important;
 }
 #block-4 {
   display: none;
