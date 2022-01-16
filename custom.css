@@ -35,6 +35,21 @@
   text-align: center;
 }
 /** ------------------ TEXT PROPERTIES ----------------- **/
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  background-color: #663300 !important;
+}
+a.nav-link {
+  color: #ff9e3c !important;
+}
+a.nav-link:hover {
+  color: white !important;
+  background-color: #024E66;
+  border-radius: 5px;
+}
+.navbar-nav .nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -217,15 +232,35 @@ a:focus {
 .send-info h2.fw-special-title {
   text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: 10px;
   color: whitesmoke;
+}
+@media only screen and (min-width: 768px) {
+  .send-info h2.fw-special-title {
+    text-align: left;
+    margin-bottom: 0;
+  }
 }
 .send-info div.fw-special-subtitle {
   color: whitesmoke;
   text-align: center;
+  margin-bottom: 32px;
+}
+@media only screen and (min-width: 768px) {
+  .send-info div.fw-special-subtitle {
+    text-align: left;
+    margin-bottom: 0;
+  }
 }
 .send-info a.fw-btn {
   font-weight: 300;
   transform: none;
+}
+@media only screen and (min-width: 1200px) {
+  .send-info a.fw-btn {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 /* front-page styles */
 .caption-header-image {
