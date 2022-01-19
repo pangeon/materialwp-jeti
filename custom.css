@@ -50,10 +50,14 @@ a.nav-link:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background-color: white;
+  overflow-x: hidden;
 }
 p {
   font-size: 13px;
@@ -276,6 +280,65 @@ a:focus {
   text-align: center;
   color: white;
   text-shadow: 4px 4px 6px #424242;
+}
+.metaslider .caption-wrap {
+  text-align: center;
+  text-shadow: 1px 1px 1px #424242;
+  background: rgba(0, 0, 0, 0.2) !important;
+  z-index: 2;
+  opacity: 1 !important;
+  width: 100%;
+  transform: translateY(50%);
+  bottom: 50% !important;
+}
+@media only screen and (max-width: 768px) {
+  .metaslider .caption-wrap {
+    background: none !important;
+  }
+}
+.metaslider .caption-wrap .caption {
+  padding: 30px;
+}
+.metaslider .caption-wrap .slide-heading {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 31px;
+}
+@media only screen and (min-width: 1200px) {
+  .metaslider .caption-wrap .slide-heading {
+    font-size: 66px;
+    line-height: 76px;
+  }
+}
+.metaslider .caption-wrap .slide-desc {
+  font-weight: 300;
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 25px 0 !important;
+}
+@media only screen and (min-width: 992px) {
+  .metaslider .caption-wrap .slide-desc {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .metaslider .caption-wrap .slide-desc {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+.metaslider .caption-wrap .slide-btn {
+  margin-top: 25px;
+}
+@media only screen and (min-width: 1200px) {
+  .metaslider .caption-wrap .slide-btn {
+    margin-top: 40px;
+    padding: 20px 30px;
+    font-size: 18px;
+  }
 }
 .law-pointer {
   text-align: center !important;
