@@ -35,20 +35,44 @@
   text-align: center;
 }
 /** ------------------ TEXT PROPERTIES ----------------- **/
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
-  background-color: #663300 !important;
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
-a.nav-link {
-  color: #ff9e3c !important;
+.site-header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  background-color: transparent !important;
+  box-shadow: none;
 }
-a.nav-link:hover {
+.site-header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .navbar-nav .nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.site-header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .navbar-brand {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .site-header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .navbar-brand {
+    font-size: 27px;
+  }
+}
+.site-header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark #navbarNav {
+  flex-grow: 0;
+}
+.site-header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark #navbarNav a.nav-link {
+  color: white !important;
+}
+.site-header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark #navbarNav a.nav-link:hover {
   color: white !important;
   background-color: #024E66;
   border-radius: 5px;
 }
-.navbar-nav .nav-link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+.site-header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark #navbarNav ul li a {
+  font-size: 16px;
 }
 html {
   overflow-x: hidden;

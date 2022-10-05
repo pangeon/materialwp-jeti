@@ -1,19 +1,51 @@
 @import 'variables.less';
 @import 'mixins.less';
 
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
-    background-color: @woodbrown !important;
-}
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+        background-color: transparent !important;
+        box-shadow: none;
 
-a.nav-link {
-    color: @orangenut !important;
-    &:hover {
-        color: white !important;
-        background-color: @seablue;
-        border-radius: 5px;
+        // background-color: @woodbrown !important;
+        // z-index: 1;
+        // border: 0;
+        // border-radius: 0;
+        // box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+
+        .navbar-nav .nav-link {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 18px;
+            .upper;
+
+            @media @small {
+                font-size: 27px;
+            }
+        }
+        #navbarNav {
+            flex-grow: 0;
+
+            a.nav-link {
+                color: white !important;
+                &:hover {
+                    color: white !important;
+                    background-color: @seablue;
+                    border-radius: 5px;
+                }
+            }        
+            ul li a {
+                font-size: 16px;
+            }
+        }
     }
 }
-.navbar-nav .nav-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
+
