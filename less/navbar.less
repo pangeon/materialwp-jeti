@@ -11,24 +11,26 @@
     nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
         background-color: transparent !important;
         box-shadow: none;
-
-        // background-color: @woodbrown !important;
-        // z-index: 1;
-        // border: 0;
-        // border-radius: 0;
-        // box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
-
+        
         .navbar-nav .nav-link {
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
         }
         .navbar-brand {
             font-weight: 700;
-            font-size: 18px;
+            font-size: 20px;
             .upper;
 
             @media @small {
-                font-size: 27px;
+                font-size: 20px;
+            }
+            img {
+                margin-right: 10px;
+                margin-bottom: 5px; 
+
+                @media @max-small {
+                    display: none;
+                }
             }
         }
         #navbarNav {
@@ -46,6 +48,13 @@
                 font-size: 16px;
             }
         }
+    }
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.navbar-scrolled {
+        background-color: @woodbrown !important;
+        z-index: 1;
+        border: 0;
+        border-radius: 0;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
     }
 }
 
