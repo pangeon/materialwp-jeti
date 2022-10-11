@@ -339,6 +339,11 @@ a:focus {
 .metaslider .caption-wrap .caption {
   padding: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .metaslider .caption-wrap .caption {
+    display: none;
+  }
+}
 .metaslider .caption-wrap .slide-heading {
   font-weight: 700;
   text-transform: uppercase;
@@ -692,4 +697,16 @@ h2.fw-special-title {
 .about-us .fw-iconbox-aside,
 .card-body .fw-iconbox-aside {
   text-align: center;
+}
+button.wahout.aicon_link {
+  left: -71px;
+  max-width: 71px;
+  max-height: 71px;
+  width: 71px;
+  height: 71px;
+}
+@media only screen and (max-width: 768px) {
+  button.wahout.aicon_link {
+    display: none;
+  }
 }
