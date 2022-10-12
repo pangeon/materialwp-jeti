@@ -9,6 +9,22 @@
 
 get_header(); ?>
 
+	<header class="caption-header">
+		<div 
+			class="caption-header-image" 
+			style="background: url(https://jeti.org.pl/wp-content/uploads/2022/02/niepelnosprawny.jpg);"
+		>
+			<div class="dark-overlay">
+			</div>
+			<!-- page title -->
+			<div class="container">
+				<div class="caption-header-title-box">
+					<h1 class="caption-header-title">NASZE WPISY</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
 	<div class="container">
 		<div class="row">
 			<div id="primary" class="content-area">
