@@ -96,7 +96,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  background-color: white;
+  background-color: #FDFDFD;
   overflow-x: hidden;
 }
 p {
@@ -339,6 +339,11 @@ a:focus {
 .metaslider .caption-wrap .caption {
   padding: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .metaslider .caption-wrap .caption {
+    display: none;
+  }
+}
 .metaslider .caption-wrap .slide-heading {
   font-weight: 700;
   text-transform: uppercase;
@@ -458,6 +463,45 @@ body.page div.card-body div.entry-content p {
 .widget-sidebar li time {
   position: block;
   color: lightgrey;
+}
+article[class~="post"] {
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+article[class~="post"] .entry-title {
+  font-size: 26px;
+  text-align: center;
+  font-weight: bolder;
+}
+article[class~="post"] .entry-title a {
+  color: #b36619;
+}
+article[class~="post"] .entry-content p:last-of-type {
+  padding-top: 5%;
+  text-align: right !important;
+}
+article[class~="post"] .entry-content p:last-of-type a {
+  background-color: #078ab3;
+}
+article[class~="post"] .entry-content p:last-of-type a:hover {
+  background-color: #024E66;
+}
+article[class~="post"] .entry-meta span a {
+  color: #078ab3 !important;
+  font-size: 14px;
+}
+article[class~="post"] .entry-meta span i {
+  color: #b36619 !important;
+  font-size: 18px;
+}
+article[class~="post"]:first-child {
+  margin-top: 200px;
+}
+body.single-post div.card-body h1.entry-title {
+  font-size: 26px;
+  text-align: center;
+  color: #b36619;
+  padding-bottom: 20px;
 }
 body.single-post div.card-body div.entry-content p {
   font-size: 16px;
@@ -693,3 +737,76 @@ h2.fw-special-title {
 .card-body .fw-iconbox-aside {
   text-align: center;
 }
+/* ACCESIBILITY PLUGIN */
+button.wahout.aicon_link {
+  left: -71px;
+  max-width: 71px;
+  max-height: 71px;
+  width: 71px;
+  height: 71px;
+}
+@media only screen and (max-width: 768px) {
+  button.wahout.aicon_link {
+    display: none;
+  }
+}
+/* ACCESIBILITY PLUGIN */
+/* CONTACT FORM */
+.wpcf7 {
+  background-color: white;
+  background-image: url(https://www.collinsdictionary.com/images/full/envelope_107579642.jpg);
+  background-position: 400px -30px;
+  background-repeat: no-repeat;
+  border: 1px solid lightgrey;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+}
+@media only screen and (max-width: 992px) {
+  .wpcf7 {
+    margin: 0 0;
+    width: 100%;
+  }
+}
+.wpcf7 form {
+  margin: 30px 150px;
+}
+@media only screen and (max-width: 992px) {
+  .wpcf7 form {
+    margin: 0 0;
+  }
+}
+.wpcf7 form input {
+  margin-top: 40px;
+}
+.wpcf7 form input,
+.wpcf7 form textarea {
+  border-bottom: 1px solid #b36619;
+  transition: 0.5s ease-in;
+}
+.wpcf7 form input:focus,
+.wpcf7 form textarea:focus {
+  border-bottom: 1px solid #b36619;
+  box-shadow: 0 1px 0 0 #663300;
+}
+.wpcf7 form .wpcf7-form-control.has-spinner.wpcf7-submit.fw-btn.fw-btn-black.fw-btn-1 {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.wpcf7 form h1 {
+  text-align: center;
+  color: #078ab3;
+}
+.wpcf7 form div.floating-label {
+  margin-top: 10px;
+  color: #ff9e3c;
+}
+.form-control,
+.custom-file-control,
+.is-focused .form-control,
+.is-focused .custom-file-control {
+  background-image: none;
+}
+/* CONTACT FORM */

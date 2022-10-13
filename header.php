@@ -30,7 +30,7 @@
 	    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	    	<div class="container">
 			   <div class="navbar-brand mb-6">
-			   	<img src="/dashboard/materialwp-jeti/wp-content/uploads/2022/10/logo_nav.png" alt="" width="40" height="50" />
+			   	<img src="https://jeti.org.pl/wp-content/uploads/2022/10/logo_nav.png" alt="" width="40" height="50" />
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
