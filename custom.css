@@ -737,6 +737,7 @@ h2.fw-special-title {
 .card-body .fw-iconbox-aside {
   text-align: center;
 }
+/* ACCESIBILITY PLUGIN */
 button.wahout.aicon_link {
   left: -71px;
   max-width: 71px;
@@ -749,3 +750,63 @@ button.wahout.aicon_link {
     display: none;
   }
 }
+/* ACCESIBILITY PLUGIN */
+/* CONTACT FORM */
+.wpcf7 {
+  background-color: white;
+  background-image: url(https://www.collinsdictionary.com/images/full/envelope_107579642.jpg);
+  background-position: 400px -30px;
+  background-repeat: no-repeat;
+  border: 1px solid lightgrey;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+}
+@media only screen and (max-width: 992px) {
+  .wpcf7 {
+    margin: 0 0;
+    width: 100%;
+  }
+}
+.wpcf7 form {
+  margin: 30px 150px;
+}
+@media only screen and (max-width: 992px) {
+  .wpcf7 form {
+    margin: 0 0;
+  }
+}
+.wpcf7 form input {
+  margin-top: 40px;
+}
+.wpcf7 form input,
+.wpcf7 form textarea {
+  border-bottom: 1px solid #b36619;
+  transition: 0.5s ease-in;
+}
+.wpcf7 form input:focus,
+.wpcf7 form textarea:focus {
+  border-bottom: 1px solid #b36619;
+  box-shadow: 0 1px 0 0 #663300;
+}
+.wpcf7 form .wpcf7-form-control.has-spinner.wpcf7-submit.fw-btn.fw-btn-black.fw-btn-1 {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.wpcf7 form h1 {
+  text-align: center;
+  color: #078ab3;
+}
+.wpcf7 form div.floating-label {
+  margin-top: 10px;
+  color: #ff9e3c;
+}
+.form-control,
+.custom-file-control,
+.is-focused .form-control,
+.is-focused .custom-file-control {
+  background-image: none;
+}
+/* CONTACT FORM */
