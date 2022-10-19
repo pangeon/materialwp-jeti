@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/3ccfeefcea.js" crossorigin="anonymous"></script>
+<!-- <script src="https://kit.fontawesome.com/a0c9248b8d.js" crossorigin="anonymous"></script> -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 

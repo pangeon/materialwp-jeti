@@ -1,0 +1,48 @@
+@import 'variables.less';
+@import 'mixins.less';
+
+/* HTML cheat sheet
+<section class="error-404 not-found">
+    <div class="error-404-icon">
+        <i class="fas fa-exclamation-circle"></i>
+    </div>
+    <header class="page-header">
+        <h1 class="page-title">
+            <?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'materialwp' ); ?>
+        </h1>
+    </header>
+
+    <div class="page-content">
+        <p>
+            <?php esc_html_e( 'It looks like nothing was found at this location.', 'materialwp' ); ?>
+            <?php echo '<br />' ?>
+            <?php esc_html_e( 'Maybe try one of the links below or a search?', 'materialwp' ); ?>
+        </p>
+    </div>
+</section>
+*/
+
+section.error-404.not-found {
+    header.page-header {
+        h1.page-title {
+            color: @woodbrown;
+            font-size: 36px;
+            font-weight: bold;
+        }
+    }
+    div.page-content {
+        p {
+            color: @nutbrown;
+            font-size: 20px;
+            line-height: 1.3;
+            letter-spacing: 0.1rem;
+        }
+    }
+    .text-center();
+    div.error-404-icon {
+        font-size: 120px;
+        i {
+            color: @orangenut;
+        }
+    }
+}
