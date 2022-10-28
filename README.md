@@ -1,71 +1,61 @@
-# MaterialWP
+# materialwp-jeti
 
-This is a starter Material Design WordPress Theme based off the Bootstrap framework.
+<img src="img/landing-page/jeti_logo.png" alt="logo" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" />
 
-[View Demo](http://materialwp.com)
+* Page dedicate for non-profit organisation: [Stowarzyszenie JETI](https://jeti.org.pl/). Base of page is Wordpress theme [MaterialWP](https://materialwp.com/).
 
+ * README for base theme MaterialWP -> [here](./README_MATERIALWP.md)
 
-## Getting Started
+## 🟤 Screenshots
 
-Upload the theme to your WordPress directory in wp-content/themes/
+![](./screenshot.png)
 
-## Credits
+## 🟤 Getting Started
 
-The Material Design WordPress Theme was started in 2014 by [Brad Williams](http://twitter.com/braginteractive/).
+1. Upload the theme to your WordPress directory in *wp-content/themes/*
 
-## Contributors
+2. Unpack archive [upload.7z](https://drive.google.com/file/d/1gwn-wYGwYksCyl4oVIw1knFhbmFKcUIr/view?usp=share_link) to *wp-content/*
 
-- [Brad Williams](https://github.com/braginteractive)
-- [Eric Juden](https://github.com/ericjuden)
-- [Everaldo Matias](https://github.com/everaldomatias)
+    * leave the necessary files, delete the rest
 
-Without the following projects/people this theme wouldn't be possible:
+        ```
+        ├── headers
+        │   ├── header_activity.jpg
+        │   ├── header_contact.jpg
+        │   ├── header_status.jpg
+        │   └── header_team.jpg
+        ├── landing-page
+        │   ├── FOTO-6-1-1-500x260.jpg
+        │   └── jeti_logo.png
+        ├── logo-accessibility.jpg
+        ├── logo_nav.png
+        ├── slides
+        │   ├── slide_n1.jpg
+        │   ├── slide_n2.jpg
+        │   ├── slide_n3.jpg
+        │   ├── slide_n4.jpg
+        │   ├── slide_n5.jpg
+        │   └── slide_n6.jpg
+        └── team
+            ├── ava_10.png
+            ├── ava_11.png
+            ├── ava_1.png
+            ├── ava_2.png
+            ├── ava_3.png
+            ├── ava_4.png
+            ├── ava_5.png
+            ├── ava_6.png
+            ├── ava_7.png
+            └── ava_9.png
+        ```
+## 🟤 Changelog 
+* **1.1** Add js animation on landing page **[preview]** 🟢
+* **1.0** First full version of page.
 
-- http://fezvrasta.github.io/bootstrap-material-design/
-- http://underscores.me/
-- http://getbootstrap.com
+## 🟤 Author 
 
-## Customization
-Basic colors changes can be made in the WordPress Customizer ( Appearance -> Customize -> Colors).
+* **Kamil Cecherz** is the author of the theme modifications and all added resources.
+* Website of the project author: [cecherz.pl](https://cecherz.pl/)
 
-If you need to further customize the theme, it is recommended that you first create a child theme so you will be able to update the theme in the future. You can read how to create a WordPress Child theme [here](http://codex.wordpress.org/Child_Themes).
-
-### Developers 
-
-1. Run `npm install` to install Node.js dependencies
-2. Run `gulp` this will start all watch tasks and run browser-sync
-3. Start making customizations 
-
-## Documentation, FAQs, and More
-
-If you’re interested in helping or have any questions, please [let me know](http://braginteractive.com/contact-us).
-
-
-## Material Design Themes
-Check out other Material Design WordPress themes and templates over at [MaterialDesignThemes.com](http://materialdesignthemes.com)
-
-
-## Releases
-
-0.0.6
-- update to Bootstrap 4 
-- add home template -hard coded
-- add cards to posts/pages and widgets
-
-0.0.5
-- update to Bootstrap 4 Beta 2
-- drop bower for npm
-- add gulp
-- use newer version of underscores
-- add full width page template
-
-0.0.4
-- add option for hide sidebar in archives
-- add option for layout columns in archives
-
-0.0.3
-- add bower
-- remove unyson
-
-0.0.1 - 0.0.2
-- Intial releases
+<hr />
+<p style="text-align:center;">🔴🟠🟡🟢🔵🟣🟤⚫⚪🔘🛑⭕</p>
