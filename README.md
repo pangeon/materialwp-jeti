@@ -1,6 +1,8 @@
 # materialwp-jeti
 
+<center>
 <img src="img/landing-page/jeti_logo.png" alt="logo" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" />
+</center>
 
 * Page dedicate for non-profit organisation: [Stowarzyszenie JETI](https://jeti.org.pl/). Base of page is Wordpress theme [MaterialWP](https://materialwp.com/).
 
@@ -16,7 +18,7 @@
 
 2. Unpack archive [upload.7z](https://drive.google.com/file/d/1gwn-wYGwYksCyl4oVIw1knFhbmFKcUIr/view?usp=share_link) to *wp-content/*
 
-    * leave the necessary files, delete the rest
+    * > __Note__ leave the necessary files, delete the rest
 
         ```
         ├── headers
@@ -48,6 +50,12 @@
             ├── ava_7.png
             └── ava_9.png
         ```
+3. Instal WP plugins:
+    - [Contact Form 7](https://contactform7.com/)
+    - [Meta Slider](https://www.metaslider.com/)
+    - [Unyson](https://unyson.io/)
+    - [WP Accessibility Helper](https://accessibility-helper.co.il/)
+ 
 ## 🟤 Changelog 
 * **1.1** Add js animation on landing page **[preview]** 🟢
 * **1.0** First full version of page.
